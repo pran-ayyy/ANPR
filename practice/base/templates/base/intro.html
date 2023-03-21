@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'intro-final.css' %}">
+    <title>PlateIntel</title>
+</head>
+<body>
+    <div class="nav-item ">
+        <button class="btndisp1" style="border: 1px solid white;">
+            <a class="nav-link" href= "{% url 'login' %}" style="color:white; ">
+                Login
+            </a>
+        </button>
+    </div>
+    <img src="{% static 'intro-trial.png' %}" class="fixed-vector" >
+    <nav>
+    <div class="button-flex">
+            <div class="nav-item ">
+                <button class="btndisp2">
+                    <a class="nav-link" href="{% url 'register' %}" style="color:#3547A3">
+                        Sign up
+                    </a>
+                </button>
+            </div>
+    </div>
+    </nav>

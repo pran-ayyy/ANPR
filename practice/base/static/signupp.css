@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+body{
+    background-image: url('signupp-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div-signup{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column; 
+    column-width: 6rem;
+    margin-top: 3%;
+    margin-left: 60%;
+    width:20%;
+    font-size: large;
+}
+.div-names{
+    display: flex;
+    align-items: center;
+    width:2%;
+}
+
+.fname:hover{
+    transition: 0.3s;
+    /* background-color: #4857a5; */
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.lname:hover{
+    transition: 0.3s;
+    /* background-color: #4857a5; */
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.designation:hover{
+    transition: 0.3s;
+    /* background-color: #4857a5; */
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.email:hover{
+    transition: 0.3s;
+    /* background-color: #4857a5; */
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.number:hover{
+    transition: 0.3s;
+    /* background-color: #4857a5; */
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.location:hover{
+    transition: 0.3s;
+    /* background-color: #4857a5; */
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.password:hover{
+    transition: 0.3s;
+    /* background-color: #4857a5; */
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.cpassword:hover{
+    transition: 0.3s;
+    /* background-color: #4857a5; */
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+p{
+    color: #3547A3;
+    font-family:poppins;
+    font-size: large;
+}
+
+/* p:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.3s;
+} */
+
+
+.div-login>p{
+    color:#3547A3;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+input{
+    border-radius:0.5rem;
+    height: 2rem;
+}
+
+
+.button-submit{
+    border-radius:1rem;
+    height:2.3rem;
+    width:43%;
+    border-width: 0rem;
+    background-color:#3547A3;
+    font-family: poppins;
+    margin-left:0.3rem;
+    color:white;
+}
+
+.button-submit:hover{
+    cursor: pointer;
+    transform: scale(1.10);
+    transition:0.3s;
+}
+
+.div-signup>p{
+    color:#3547A3;
+    font-size: x-large;
+}
+
+@media only screen and (max-width: 400px) {
+    div.div-signup{
+      font-size: 14px;
+      /* padding: 0 6rem; */
+      border-radius: 1rem;
+      width: 40%;
+    }
+  }
+
+@media only screen and (max-width: 400px) {
+    button.button-submit{
+    /* font-size: 14px; */
+    /* padding: 0 6rem; */
+    border-radius: 1rem;
+    width: 80%;
+}
+}

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    font-family: Poppins;
+    background-image: url('laaand.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.seclog-1{
+    margin-top: 7rem;
+    margin-left: 3rem;
+    font-size: 175%;
+    margin-bottom: 0%;
+}
+
+.header{
+    margin-left: 3rem;
+    margin-top: 0;
+    margin-bottom: auto;
+    margin-right: 0;
+
+    font-weight: 800;
+}
+
+
+.button-signout{
+    border-radius:2rem;
+    height:2.5rem;
+    width:10rem;
+    text-align: center;
+    border-width: 0rem;
+    /* padding-bottom: 0.74rem;
+    padding-top: 0.75rem; */
+    vertical-align: top;
+    margin-top:1.6rem;    
+    margin-left: 84%;
+    font-family: poppins;
+    background-color: #3547A3;;
+    color:white;
+    font-size: large;
+    line-height: normal;
+    padding-bottom: 0;
+}
+
+
+.button-signout:hover{
+    transition: 0.3s;
+    background-color: #4857a5;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+table,th,td{
+    border: solid 1px;
+    margin-left: 3rem;
+    padding: 1rem 0rem 1rem 1rem;
+    text-align: center;
+
+}
+table{
+    width: 95%;
+    border-collapse: collapse;
+
+}
+
+th{
+    color: #4859B2;
+    border-color: #000;
+
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+@media only screen and (max-width: 400px) {
+    button.button-signout {
+      font-size: 14px;
+      /* padding: 0 6rem; */
+      border-radius: 2rem;
+      width: 25%;
+      margin-top: 1.8rem;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .style-tab {
+      font-size: 14px;
+      /* padding: 0 6rem; */
+      border-radius: 2rem;
+      width: 25%;
+      margin-top: 1.8rem;
+    }
+  }

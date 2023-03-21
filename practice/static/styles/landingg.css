@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+
+body{
+    background-image: url('../images/laaand.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button-signout{
+    border-radius: 2rem;
+    border-width:0;
+    background-color: #3547A3;
+    width:10%;
+    height:3rem;
+    color:white;
+    margin-top:0.0001%;
+    margin-left: 78%;
+    font-size: medium;
+}
+
+.div-landing-butts{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:2rem;
+    margin-top:5rem;
+    
+}
+
+.butt-security{
+    border-radius:2rem;
+    height:4rem;
+    width:17%;
+    font-family:poppins;
+    background-color: #3547A3;;
+    border-width:0;
+    color:white;
+    margin-top:0.1rem;
+    font-size: large;
+}
+
+.butt-employees{
+    border-radius:2rem;
+    height:4rem;
+    width:17%;
+    font-family:poppins;
+    background-color: white;
+    font-size: large;
+}
+
+.butt-locations{
+    border-radius:2rem;
+    height:4rem;
+    width:17%;
+    font-family:poppins;
+    background-color: white;
+    font-size: large;
+}
+
+.mini-text{
+    font-family: poppins;
+    font-size:xx-large;
+    margin-bottom:0rem;
+}
+
+.mega-text{
+    font-family: poppins;
+    margin-top:0.00rem;
+}
+
+.a-active{
+    color:black;
+    margin-top: 1rem;
+}
+
+.a-contact{
+    color:black;
+    margin-top:1rem;
+}
+
+.a-about{
+    color:black;
+
+}
+
+.topnav{
+    display: flex;
+    justify-content: center;
+    margin-top:1rem;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'logs.css' %}">
+    <title>Security Logs</title>
+</head>
+<body>
+    <nav class="butt-signout">
+        <!-- <a class="a-active" href="#home">Home</a>
+        <a class="a-contact" href="#contact">Contact</a>
+        <a class="a-about" href="#about">About</a> -->
+        <button class="button-signout"><a href="{% url 'logout' %}">Sign Out</a></button>
+    </nav>
+    <!-- <h4 class="btn-signout">Sign Out </h4> -->
+    <h2 class="seclog-1">Security Logs for:<br></h2>
+    <h2 class="header">ABC Security Solutions</h2>
+
+    <table>
+        <tr>
+            <th>Car ID</th>
+            <th>In Time</th>
+            <th>Out Time</th>
+            <th>Type of vehicle</th>
+        </tr>
+        
+        {% for log in logs %}
+        
+        <tr>
+            <td>{{log.vehicle.plate}}</td>
+            <td>{{ log.entry }}</td>
+            <td>{{ log.exit }}</td>
+            <td>{{log.vehicle.type}}</td>
+        </tr>
+
+        {% endfor %}
+    </table>
+    
+</body>
+</html>

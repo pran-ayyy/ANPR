@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'home.css' %}">
+    <title>Landing</title>
+</head>
+<body>
+    <nav>
+        <div class="topnav">
+            <button class="button-signout"><a href="{% url 'logout' %}">Sign Out</a></button>
+        </div>
+        
+    </nav>
+    
+    <div class="div-landing-butts">
+        <p class="mini-text">Welcome back,</p>
+        <h3 class="mega-text">ABC Security Solutions</h3>
+        <button class="butt-security"><a href="{% url 'logs' %}">View Security Logs</a></button>
+        <button class="butt-employees">Employees</button>
+        <button class="butt-locations">Overlooking Locations</button>
+    </div>
+    
+</body>
+</html>

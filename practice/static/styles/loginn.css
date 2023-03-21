@@ -1,0 +1,29 @@
+
+.button-submit{
+    display:flex;
+    flex-direction: column;
+    background-color: #233696;
+    border-width: 0rem;
+    color:white;
+    border-radius:0.2rem;
+    margin-top: 0.5rem;
+}
+
+.input-login1{
+    margin-top: 50rem;
+}
+.input-login2{
+    margin-top:2rem;
+}
+
+.div-login{
+    margin-top: 20%;
+    margin-left: 70%;;
+}
+
+.username{
+    margin-top: 0.5rem;
+}
+.password{
+    margin-top: 0.5rem;
+}

@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body{
+    background-image: url('signupp-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button-submit{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #233696;
+    /* border-width: 0rem; */
+    padding: 0.5rem;
+    color:white;
+    border-width: 0rem;;
+    border-radius:1rem;
+    margin-top: 0.5rem;
+    font-family: poppins;
+    /* height:2rem; */
+    width:25%;
+    text-align: center;
+    margin-left: 0.1rem;;
+}
+
+.button-submit:hover{
+    transition: 0.3s;
+    /* background-color: #4857a5; */
+    cursor: pointer;
+    transform: scale(1.10);
+}
+
+.input-login1{
+    margin-top: 50rem;
+}
+.input-login2{
+    margin-top:2rem;
+}
+
+.div-login{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20%;
+    margin-left: 70%;;
+}
+
+.username{
+    width:50%;
+    margin-top: 0.5rem;
+}
+
+.username:hover{
+    transition: 0.3s;
+    /* background-color: #4857a5; */
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.password{
+    width:50%;
+    margin-top: 0.7rem;
+}
+
+.password:hover{
+    transition: 0.3s;
+    /* background-color: #4857a5; */
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+
+label{
+    color:#233696;
+    font-family: poppins;
+    font-size: x-large;
+    margin-left: 0.1rem;
+}
+
+input{
+    border-radius:0.5rem;
+    height: 2rem;
+}
+
+@media only screen and (max-width: 400px) {
+    button.button-submit{
+    /* font-size: 14px; */
+    /* padding: 0 6rem; */
+    border-radius: 1rem;
+    width: 80%;
+}
+}
+
+@media only screen and (max-width: 400px) {
+    .username {
+    /* font-size: 14px; */
+    /* padding: 0 6rem; */
+    border-radius: 1rem;
+    width: 100%;
+}
+}
+
+@media only screen and (max-width: 400px) {
+    .password {
+        /* background-image: url("../images/landing-bg.png"); */
+    /* font-size: 14px; */
+    /* padding: 0 6rem; */
+    border-radius: 1rem;
+    width: 100%;
+}
+}

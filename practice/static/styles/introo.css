@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+
+body{
+    background-image: url('../images/intro-bgg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btndisp1{
+    background-color:transparent;
+    margin-left:80%;
+    margin-top:5%;
+    border: none;
+    border-radius:1rem;
+    color: aliceblue;
+    font-family: poppins;
+}
+
+button.btndisp1{
+    max-width: 10rem;
+}
+
+.btndisp2{
+    background-color:transparent;
+    margin-left:90%;
+    margin-top: 0%;
+    border: none;
+    border-radius:1rem;
+    color:aliceblue;
+    font-family: poppins;
+}
+
+button.btndisp2{
+    max-width:10rem;
+}
+
+
+.motto{
+    font-family: poppins;
+    color: black;
+    margin-top: 15%;
+}
+

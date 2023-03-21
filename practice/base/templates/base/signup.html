@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'signupp.css' %}">
+    <title>PlateIntel</title>
+</head>
+<body>
+    <nav>
+        <!-- <form> -->
+        <!-- <input type="text" class="input-login1" placeholder="fname">
+        <input type="text" class="input-login2" placeholder="lname"> -->
+        
+        <form method="POST" action="">
+            {% csrf_token %}
+
+            <div class="div-signup">
+                <p class="signup">Signup</p>
+                <!-- <div class="div-names"> -->
+                    <input type="text" class="fname" name="fname" placeholder="fname"><br>
+                    <input type="text" class="lname" name="lname" placeholder="lname"><br>
+                <!-- </div> -->
+                
+                <input type="text" class="designation" name="designation" placeholder="Designation"><br>
+                <input type="text" class="email" name="email" placeholder="Email"><br>
+                <input type="text" class="number" name="number" placeholder="Username"><br>
+                <input type="text" class="location" name="location" placeholder="Password"><br>
+                <input type="text" class="cpassword" name="cpassword" placeholder="Confirm Password"><br>
+                <input type="submit" class="button-submit" value="Register" />
+            </div>
+            
+        </form>
+        <!-- </form> -->
+    </nav>
+</body>
+</html>

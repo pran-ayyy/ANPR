@@ -1,0 +1,26 @@
+.div-login{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column; 
+    column-width: 5rem;
+    margin-top: 13%;
+    margin-left: 70%;
+    width:15%;
+}
+.div-names{
+    display: flex;
+    align-items: center;
+    width:2%;
+}
+
+input[type=text] {
+    width:90%;
+    border: 2px solid #eee;
+
+  }
+
+
+.label-login{
+    font-family:poppins;
+}
+

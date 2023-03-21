@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+
+body{
+    background-image: url("intro-new.png");
+    /* background-repeat:none !important; */
+    background-repeat: no-repeat;
+    background-size:cover;
+    font: poppins;
+}
+
+.fixed-vector{
+    width: 40%;
+    margin-top: 4.5%;
+    margin-left: 9%;
+}
+
+.nav-item{
+    color: #fff;
+
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.btndisp1{
+    border-radius:2rem;
+    height:3.6rem;
+    width:11%;
+    /* border-width: 1rem; */
+    font-family:poppins;
+    background-color: #3547A3;
+    color:white !important;
+    margin-top:0.2rem;
+    margin-left: 77.3%;
+    font-size: 1.5rem;
+}
+
+.btndisp1:hover{
+  transition: 0.3s;
+  background-color: #4857a5;
+  cursor: pointer;
+  transform: scale(1.05);
+  color:black;
+}
+
+.btndisp2{
+    border-radius:2rem;
+    border-width:0rem;
+    height:3.6rem;
+    width:11%;
+    font-family:poppins;
+    color: #3547A3;
+    background-color:white !important;
+    /* margin-top: 30%; */
+    margin-left: 77.3%;
+    font-size: 1.5rem;
+}
+
+.btndisp2:hover{
+  background-color: #3547A3;
+  transition:0.3s;
+  background-color: #3547A3;
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+/* @media screen and (min-width: 11.5rem),
+        screen and (min-height:2rem){
+    div.nav-item {
+      font-size: medium;
+    }
+  }
+  
+@media screen and (max-width: 11.5rem),
+        screen and (max-width:4rem) {
+div.nav-item {
+    font-size: medium;
+}
+}
+
+
+  @media screen and (min-height: 17rem) {
+    button.btndisp1 {
+      width: 5rem;
+      height:2.5rem;
+    }
+  }
+  
+  @media screen and (min-width: 17rem) {
+    button.btndisp2 {
+      width: 5rem;
+      height:2.5rem;
+    }
+  } */
